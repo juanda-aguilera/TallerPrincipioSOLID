@@ -1,14 +1,10 @@
 # Taller 9: Principios SOLID paso a paso — ParqueaderoSOLID
 
-**Universidad Libre · Facultad de Ingeniería · Programación 1**
-**Docente:** Andrés Castaño
 **Integrantes:** Juan David Aguilera y Marianna Fernandez
 
 Sistema de cobro mensual de un parqueadero: mensualistas, vehículos que pagan por minuto o por día, bicicletas y casilleros para cascos.
 
-Cada carpeta es una versión completa y ejecutable del mismo proyecto. Cada paso se construyó copiando la carpeta anterior y aplicando sobre la copia un principio SOLID. Las líneas que cambian en cada paso llevan un comentario que empieza con `// Paso`.
-
-Todas las clases pertenecen al paquete `com.gitb.juandaaguilera.principiosSolid`.
+Cada carpeta es una versión completa y ejecutable del mismo proyecto. Cada paso se construyó copiando la carpeta anterior y aplicando sobre la copia un principio SOLID.
 
 ## Resumen de cambios por paso
 
