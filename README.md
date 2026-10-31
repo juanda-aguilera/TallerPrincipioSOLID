@@ -39,10 +39,6 @@ java -cp out com.gitb.juandaaguilera.principiosSolid.Main
 
 ## Notas por paso
 
-- **Paso 2:** `Main` trae comentado un bloque que recorre todos los vehículos llamando `calcularPuntos()`. Al descomentarlo lanza `UnsupportedOperationException` con la bicicleta: es la violación de Liskov que se corrige en el paso 3.
+- **Paso 2:** `Main` hay un bloque que recorre todos los vehículos llamando `calcularPuntos()`. Al descomentarlo lanza `UnsupportedOperationException` con la bicicleta: es la violación de Liskov que se corrige en el paso 3.
 - **Paso 3:** ese mismo bloque queda activo y funciona, porque solo los objetos `Fidelizable` calculan puntos.
 - **Paso 5:** `Main` ejecuta primero una prueba con `RepositorioEnMemoria` (imprime `PRUEBA OK`) y luego el mismo gestor con `RepositorioMySQL`.
-
-## Pendiente (reto)
-
-En `05-inversion-dependencias`, `GestorParqueadero` todavía crea con `new` el `ExportadorCSV` y el `NotificadorSMS`. Aplicarles la misma técnica del repositorio permitiría, por ejemplo, enviar el recibo por WhatsApp o por correo sin modificar `GestorParqueadero`.
